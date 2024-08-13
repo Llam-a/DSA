@@ -3,7 +3,7 @@
 Bài này thì tương tự bài 1, nhưng mà thay vì in 1 và 0 thì bây giờ in B và A. Cấu hình đấu tiên là BBB thì chắc chắn là B là bit 0 còn A là bit 1.
 Thêm nữa, ta phải tự sinh cấu hình đầu tiên.
 
-```
+```cpp
 #include<bits/stdc++.h>
 
 using namespace std;
