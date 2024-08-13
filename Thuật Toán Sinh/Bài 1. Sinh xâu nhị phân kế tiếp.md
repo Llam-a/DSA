@@ -11,7 +11,7 @@ string s;
 int final = 0;
 int main(){
   cin >> s;
-  int n = s.size() - 1;
+  int n = s.size() - 1;// vì trong string bắt đầu từ 0 đến s.size() - 1
   int i = n;
   while(i >= 0 && s[i] == '1'){
     s[i] = '0';
