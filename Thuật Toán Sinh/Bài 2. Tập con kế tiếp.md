@@ -51,4 +51,4 @@ int main(){
   }
 }
 ```
-
+Cho i = k, bởi vì ta nhập tập con có k phần tử, còn N chỉ là giá trị từ 1 đến N của tập thôi.
