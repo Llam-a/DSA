@@ -42,3 +42,19 @@ int main(){
     cout << res << endl;
 }
 ```
+
+# Giải thích:
+
+- Vòng lặp chính:
+
+while (right < S.size()): Duyệt qua các ký tự của xâu bằng cách di chuyển con trỏ right.
+
+while (se.find(r_char) != se.end()): Nếu ký tự tại vị trí right đã xuất hiện trong cửa sổ, ta thu hẹp cửa sổ bằng cách di chuyển con trỏ left và loại bỏ ký tự tại vị trí left khỏi cửa sổ.
+
+se.insert(r_char);: Thêm ký tự mới vào cửa sổ.
+
+max_length = max(max_length, r - l + 1);: Cập nhật độ dài xâu con dài nhất không chứa ký tự trùng lặp.
+
+r++;: Mở rộng cửa sổ bằng cách di chuyển con trỏ right.
+
+Kết thúc hàm: Trả về độ dài của xâu con dài nhất không chứa ký tự trùng lặp.
